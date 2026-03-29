@@ -41,7 +41,7 @@ PROMPT_FILE = PROJECT_ROOT / "prompts" / "main_prompt.md"
 METRICS_FILE = PROJECT_ROOT / "metrics" / "metrics.json"
 LAST_RESPONSE_FILE = PROJECT_ROOT / "metrics" / "last_response.json"
 
-# Costos por 1M tokens (USD) — gpt-4o-mini (actualizar según modelo) //TODO: revisar que se calcule en base a lo visto en la documentación
+# Costos por 1M tokens (USD) — gpt-4o-mini (actualizar según modelo)
 MODEL_PRICING = {
     "gpt-4o-mini": {"input": 0.15, "output": 0.60},
     "gpt-4o": {"input": 2.50, "output": 10.00},
