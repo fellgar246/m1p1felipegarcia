@@ -48,7 +48,6 @@ MODEL_PRICING = {
     "gpt-3.5-turbo": {"input": 0.50, "output": 1.50},
 }
 
-
 def load_system_prompt() -> str:
     """Carga la plantilla de prompt desde el archivo."""
     if not PROMPT_FILE.exists():
